@@ -55,16 +55,19 @@
 
     <div class="project">
       <h2><a href="https://github.com/tranchau989/Snapshot_AcousticImpedance_Prediction" target="_blank">Project One: Acoustic Impedant Prediction using Stratigraphy-guided Deep Learning</a></h2>
-        <p> This research presents a new method—Stratigraphy-Guided Deep Learning (SGDL)—for estimating acoustic impedance from poststack seismic data using deep neural networks. Acoustic impedance plays a key role in linking seismic reflectivity to subsurface rock properties, and accurate inversion is critical for reservoir characterization.
-            SGDL advances seismic inversion by incorporating stratigraphic units as an additional input feature, allowing the model to learn in a more geologically meaningful context. The approach leverages a Temporal Convolutional Network (TCN) as the backbone architecture, which is specifically suited to capturing both temporal and spatial features in seismic data. TCNs process sequential information along the depth axis (time/depth domain), extracting subsurface trends and reflectivity patterns, while also integrating lateral information from neighboring traces. This dual capability enables the model to better understand local continuity and geological structures—key factors in inversion quality.
-In a case study using the Volve dataset, SGDL was trained on well-controlled field data and benchmarked against traditional poststack inversion and other deep learning methods. The results demonstrate:
-              <ul>
-                <li>A ~10% improvement in Pearson Correlation on two benchmark wells.</li>
-                <li>A ~20% average improvement across 10 test wells, showing strong generalization and robustness.</li>
-              </ul>
-            Why this matters:
-            SGDL is especially effective in near-field exploration settings, where labeled well data and stratigraphic interpretations are available. By combining geological priors with a model capable of extracting rich temporal and spatial features, SGDL offers a robust and interpretable solution for seismic inversion.
-        </p> 
+        <p>This research presents a new method—<strong>Stratigraphy-Guided Deep Learning (SGDL)</strong>—for estimating acoustic impedance from poststack seismic data using deep neural networks. Acoustic impedance plays a key role in linking seismic reflectivity to subsurface rock properties, and accurate inversion is critical for reservoir characterization.
+        </p>
+        <p>SGDL advances seismic inversion by incorporating stratigraphic units as an additional input feature, allowing the model to learn in a more geologically meaningful context. The approach leverages a <strong>Temporal Convolutional Network (TCN)</strong> as the backbone architecture, which is specifically suited to capturing both temporal and spatial features in seismic data. TCNs process sequential information along the depth axis (time/depth domain), extracting subsurface trends and reflectivity patterns, while also integrating lateral information from neighboring traces. This dual capability enables the model to better understand local continuity and geological structures—key factors in inversion quality.
+        </p>
+        <p>In a case study using the Volve dataset, SGDL was trained on well-controlled field data and benchmarked against traditional poststack inversion and other deep learning methods. The results demonstrate:
+        </p>
+        <ul>
+          <li>Approximately 10% improvement in Pearson Correlation on two benchmark wells.</li>
+          <li>Approximately 20% average improvement across 10 test wells, showing strong generalization and robustness.</li>
+        </ul>
+        <p><strong>Why this matters:</strong><br>
+          SGDL is especially effective in near-field exploration settings, where labeled well data and stratigraphic interpretations are available. By combining geological priors with a model capable of extracting rich temporal and spatial features, SGDL offers a robust and interpretable solution for seismic inversion.
+        </p>
     </div>
 
     <div class="project">
@@ -73,7 +76,7 @@ In a case study using the Volve dataset, SGDL was trained on well-controlled fie
     </div>
 
     <div class="project">
-      <h2><a href="https://github.com/tranchau989/showcase-me/tree/main/prj_snapshots" target="_blank">Project Snapshots of other works</a></h2>
+      <h2><a href="https://github.com/tranchau989/showcase-me/tree/main/prj_snapshots" target="_blank">Snapshots of other works</a></h2>
       <p>This item contains a collection of standalone exploratory projects in the field of computer vision. Each Jupyter notebook addresses a unique research question or application, ranging from image fusion techniques to biometric recognition tasks. These projects are independent studies and are not part of a single workflow. Together, they reflect a diverse exploration of classical image processing methods as well as modern machine learning techniques. This folder may be of interest to those working on multimodal image analysis, hand-based biometrics, or visual data preprocessing for classification models.
       </p>
       <p>The <a href="https://github.com/tranchau989/showcase-me/blob/main/prj_snapshots/00_Images_Fusing.ipynb" target="_blank"><strong>00_Images_Fusing.ipynb</strong></a> notebook presents an advanced study on multiview image fusion using modern computer vision techniques, including the integration of Segment Anything Model v2 (SAM2) and RoMA for image matching and alignment. The objective of this notebook is to automatically segment relevant visual content from different image views, match features across them, and perform perspective correction to generate clean, rectified views suitable for fusion. It includes GPU-accelerated inference with support for both CUDA and Apple MPS, and leverages deep segmentation and matching models for region extraction and image warping. This notebook is aimed at researchers or developers interested in state-of-the-art image fusion for surveillance, robotics, or scene understanding tasks where precise matching and alignment from multiple views is critical.
