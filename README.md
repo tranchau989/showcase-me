@@ -1,2 +1,2 @@
-# showcase-me
-This repository serves as a personal portfolio website designed to act as the frontline representation of my work. Built with a flexible, content-driven structure, it allows me to easily showcase projects, skills, writing, and achievements in a clean, responsive web format. 
+# Frontline Portfolio – A Dynamic Showcase of My Work
+This repository serves as a personal portfolio website designed to act as the frontline representation of my work. Built with a flexible, content-driven structure, it allows me to easily showcase projects, skills, writing, and achievements in a clean, responsive web format. The site is fully customizable—content can be updated through simple markdown or YAML files, making it adaptable to different audiences or goals, whether for job applications, freelance clients, or tech community engagement. It’s deployable via GitHub Pages or any static site hosting platform, ensuring fast and reliable access from anywhere.
