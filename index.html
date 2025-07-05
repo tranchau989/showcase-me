@@ -72,12 +72,24 @@ SGDL is especially effective in near-field exploration settings, where labeled w
       <p>As an outcome of the Information Technology and Communication Department’s internal project in Østfold University College, multiple evolved recursive neuron networks were generated for Human Activity Recognition (HAR) and other applications. They were synthesized by the Automatic Design of Algorithms Through Evolution (ADATE) system based on the Recurrent Neural Network (RNN), in particular the Long Short-Term Memory (LSTM) model’s logic. Their transcripts are written in the Standard ML language, which is not well-known or commonly used in applied machine learning. Moreover, the result’s reliability remains open. Correspondingly, the project is established as a pilot study that concentrates on neuron exploration, which is comprised of analyzing its logic, importing it to other frameworks such as TensorFlow, and evaluating its accuracy. The selected neuron is version 30th in the synthesized list for HAR using the Wireless Sensor Data Mining (WISDM) dataset, which is the second best in both complexity and accuracy.</p>
     </div>
 
-    <div class="project">
-      <h2><a href="./prj_snapshots" target="_blank">Project Snapshots of other works</a></h2>
-      <p>Write a short description here. Mention what problem it solves or who might find it useful.</p>
-    </div>
+<div class="project">
+  <h2><a href="https://github.com/tranchau989/showcase-me/tree/main/prj_snapshots" target="_blank">Project Snapshots of other works</a></h2>
+  <p>
+    The <strong>generate</strong> folder in the <code>prj_snapshots</code> repository showcases a series of Jupyter notebooks that explore image fusion and biometric recognition using a blend of traditional image processing and modern machine learning techniques. This collection is particularly valuable for researchers, engineers, and students working on multimodal data fusion, computer vision applications, or biometric authentication systems. Each notebook represents a critical step in a broader workflow—from preprocessing and sensor fusion to classification and recognition—highlighting how fused imagery can lead to better feature representation and more robust model performance. The work emphasizes both visual and quantitative evaluations, demonstrating how advanced techniques such as PCA, wavelet transforms, and CNN-based classifiers can be integrated into a practical and scalable pipeline. This project is a useful reference for anyone aiming to combine thermal and visible data sources or to improve recognition accuracy in challenging visual environments.
+  </p>
 
-    <!-- Add more projects as needed -->
+  <p>
+    The notebook <strong>00_Images_Fusing.ipynb</strong> introduces foundational image fusion techniques, with the objective of creating enhanced images from multiple sources. It begins by preprocessing input images through grayscale conversion, resizing, and normalization. Several fusion strategies are implemented, including simple averaging, principal component analysis (PCA), wavelet transform fusion, and saliency-based fusion. These methods are compared both visually and quantitatively using entropy and edge preservation metrics. The notebook highlights how information from multiple inputs can be combined to yield richer, more informative images suitable for applications like surveillance, remote sensing, or medical diagnostics.
+  </p>
+
+  <p>
+    The <strong>01_Nora_Fusion_clean.ipynb</strong> notebook builds upon earlier fusion work by applying multimodal fusion techniques to RGB and thermal hand images, specifically from the Nora dataset. The objective here is to create a unified representation that preserves both visual texture and thermal contour information, which is crucial for robust biometric analysis. The notebook includes careful alignment, histogram equalization, and noise filtering to improve fusion quality. The outcome is a series of fused images that are not only visually coherent but also optimized for downstream classification tasks. This notebook demonstrates how sensor fusion can be practically applied in real-world biometric systems.
+  </p>
+
+  <p>
+    The final notebook, <strong>02_handrecognition.ipynb</strong>, focuses on using the fused images for biometric recognition, such as hand gesture or identity classification. It employs both classical feature extraction methods like Histogram of Oriented Gradients (HOG) and deep learning models including pre-trained CNN architectures such as VGG16 and ResNet. These features are used to train and evaluate classifiers such as Support Vector Machines (SVM), Random Forests, and fine-tuned convolutional neural networks. The notebook analyzes model performance through accuracy metrics and confusion matrices, providing a comprehensive view of how fusion enhances recognition accuracy. This end-to-end system demonstrates the tangible benefits of combining image fusion with intelligent classification techniques.
+  </p>
+</div>
   </div>
 </body>
 </html>
